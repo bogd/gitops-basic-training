@@ -16,7 +16,7 @@ spec:
   template:
     metadata:
      annotations:
-      gitops.training.sass.ro/appVersion: version {{ .Chart.AppVersion }}
+      gitops.training.sass.ro/appVersion: {{ .Chart.AppVersion | quote}}
       {{- with .Values.podAnnotations }}
         {{- toYaml . | nindent 8 }}
       {{- end }}
