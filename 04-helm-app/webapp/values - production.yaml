@@ -27,6 +27,7 @@ serviceAccount:
 
 podAnnotations: 
   example.com/argocd-info: moving to v1.16.4
+  link.argocd.argoproj.io/external-link: http://labs.sass.ro:31800
 
 podSecurityContext: {}
   # fsGroup: 2000
