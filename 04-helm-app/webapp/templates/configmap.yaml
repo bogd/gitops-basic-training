@@ -7,7 +7,7 @@ metadata:
 data:
   index.html: |
     This is a new line! <p>
-    This is the new testing branch! <p>
+    This is the new production branch! <p>
     This is version {{ .Chart.AppVersion }} of our app, running in {{ .Values.appType }}
 
 
