@@ -25,7 +25,8 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: ""
 
-podAnnotations: {}
+podAnnotations: 
+  example.com/argocd-info: moving to v1.16.4
 
 podSecurityContext: {}
   # fsGroup: 2000
