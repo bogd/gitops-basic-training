@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: newcm
-data:
-  index.html: |
-    Hello 2022-04-28! <p>
-    Congratulations! <p>
-    This is your second app deployed via ArgoCD!
