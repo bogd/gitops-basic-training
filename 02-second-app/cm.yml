@@ -4,6 +4,6 @@ metadata:
   name: secondapp-config
 data:
   index.html: |
-    Hello 2022-04-28! <p>
+    Hello 2022-04-29! <p>
     Congratulations! <p>
     This is your second app deployed via ArgoCD!
